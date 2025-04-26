@@ -1,29 +1,36 @@
-# frontend
+# 📝 Vue Task Management App
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple, elegant task management application built with Vue 3. Users can add, edit, complete, and reorder tasks using drag-and-drop functionality.
 
-## Recommended IDE Setup
+## 🚀 Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- User authentication and logout
+- Task creation with description and priority
+- Filter tasks by status and priority
+- Search tasks by title or description
+- Drag-and-drop task reordering
+- Responsive and accessible UI
+- Status tracking: Pending ✅ or Completed ✔️
 
-## Customize configuration
+## 🧑‍💻 Technologies Used
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- [Vue 3](https://vuejs.org/) (Composition API)
+- [Pinia](https://pinia.vuejs.org/) for state management
+- [Vue Router](https://router.vuejs.org/) for routing
+- [TailwindCSS](https://tailwindcss.com/) for css
 
-## Project Setup
+## 📦 Project Setup
 
-```sh
+```bash
+# 1. Clone the repository
+git clone https://github.com/mjannetorres/viptutors.git
+
+# 2. Navigate to the project directory
+cd frontend
+
+# 3. Install dependencies
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# 4. Run the development server
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
