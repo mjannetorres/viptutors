@@ -23,7 +23,7 @@ Instructions to set up the project locally.
 ```bash
 # Clone the repository
 git clone https://github.com/mjannetorres/viptutors.git
-cd your-repo
+cd backend
 
 # Install dependencies
 composer install
